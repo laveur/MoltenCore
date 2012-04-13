@@ -1,0 +1,1147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E1443271399050A008C27A5 /* MVSUUID.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E1443251399050A008C27A5 /* MVSUUID.c */; };
+		3E1443281399050A008C27A5 /* MVSUUID.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E1443251399050A008C27A5 /* MVSUUID.c */; };
+		3E1443291399050A008C27A5 /* MVSUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1443261399050A008C27A5 /* MVSUUID.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E14432A1399050A008C27A5 /* MVSUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1443261399050A008C27A5 /* MVSUUID.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E157AF9136995DF0019F9B6 /* MVSHTTPResponseOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E157AF7136995DF0019F9B6 /* MVSHTTPResponseOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E157AFA136995DF0019F9B6 /* MVSHTTPResponseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E157AF8136995DF0019F9B6 /* MVSHTTPResponseOperation.m */; };
+		3E2561F41320737C00EEC04D /* CryptographicLolcatAccumulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2561F21320737C00EEC04D /* CryptographicLolcatAccumulator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E2561F51320737C00EEC04D /* CryptographicLolcatAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2561F31320737C00EEC04D /* CryptographicLolcatAccumulator.m */; };
+		3E278D051367329D00C88B29 /* MVSJSONRPCServerBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E278D031367329D00C88B29 /* MVSJSONRPCServerBase.h */; };
+		3E278D061367329D00C88B29 /* MVSJSONRPCServerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E278D041367329D00C88B29 /* MVSJSONRPCServerBase.m */; };
+		3E28B0C1131813D500EBB4F7 /* MVSWebserviceOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E28B0BF131813D400EBB4F7 /* MVSWebserviceOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E28B0C2131813D500EBB4F7 /* MVSWebserviceOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E28B0C0131813D500EBB4F7 /* MVSWebserviceOperation.m */; };
+		3E2926EA138695C70019893C /* NSObject+PerformInBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2926E8138695C70019893C /* NSObject+PerformInBackground.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E2926EB138695C70019893C /* NSObject+PerformInBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2926E9138695C70019893C /* NSObject+PerformInBackground.m */; };
+		3E2926ED138698C60019893C /* NSObject+PerformInBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2926E8138695C70019893C /* NSObject+PerformInBackground.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E2926EE138698D20019893C /* NSObject+PerformInBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2926E9138695C70019893C /* NSObject+PerformInBackground.m */; };
+		3E2E6E47132947CB00AF1264 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2E6E45132947CB00AF1264 /* NSString+MD5.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E2E6E48132947CB00AF1264 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2E6E46132947CB00AF1264 /* NSString+MD5.m */; };
+		3E2E6E4B1329490E00AF1264 /* NSData+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2E6E491329490E00AF1264 /* NSData+MD5.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E2E6E4C1329490E00AF1264 /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2E6E4A1329490E00AF1264 /* NSData+MD5.m */; };
+		3E2E918D131FDB8E00C9806B /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2E918B131FDB8E00C9806B /* JSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E2E918E131FDB8E00C9806B /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2E918C131FDB8E00C9806B /* JSONKit.m */; };
+		3E329FD0136854A6000D2D74 /* MVSServerSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E329FCE136854A6000D2D74 /* MVSServerSocket.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E329FD1136854A6000D2D74 /* MVSServerSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E329FCF136854A6000D2D74 /* MVSServerSocket.m */; };
+		3E329FD5136864B0000D2D74 /* MVSSocketConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E329FD3136864B0000D2D74 /* MVSSocketConnection.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E329FD6136864B0000D2D74 /* MVSSocketConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E329FD4136864B0000D2D74 /* MVSSocketConnection.m */; };
+		3E329FE11368923B000D2D74 /* MVSHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E329FDF1368923B000D2D74 /* MVSHTTPServer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E329FE21368923B000D2D74 /* MVSHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E329FE01368923B000D2D74 /* MVSHTTPServer.m */; };
+		3E329FE51368A2BC000D2D74 /* MVSHTTPResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E329FE31368A2BA000D2D74 /* MVSHTTPResponseHandler.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E329FE61368A2BC000D2D74 /* MVSHTTPResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E329FE41368A2BB000D2D74 /* MVSHTTPResponseHandler.m */; };
+		3E329FE91368ADE9000D2D74 /* MVSHTTPResponseHandlerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E329FE71368ADE8000D2D74 /* MVSHTTPResponseHandlerFactory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E329FEA1368ADE9000D2D74 /* MVSHTTPRequstHandlerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E329FE81368ADE8000D2D74 /* MVSHTTPRequstHandlerFactory.m */; };
+		3E36AD30136C2CFB00692579 /* Group.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E36AD2F136C2CFB00692579 /* Group.h */; };
+		3E36AD33136C32CB00692579 /* Group.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E36AD32136C32CB00692579 /* Group.h */; };
+		3E36AD35136C36B000692579 /* Group.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E36AD34136C36B000692579 /* Group.h */; };
+		3E36AD37136C3B5700692579 /* Group.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E36AD36136C3B5700692579 /* Group.h */; };
+		3E39D381131A6FC100DFD9F6 /* NSString+QueryString.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E39D37F131A6FC100DFD9F6 /* NSString+QueryString.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E39D382131A6FC100DFD9F6 /* NSString+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E39D380131A6FC100DFD9F6 /* NSString+QueryString.m */; };
+		3E39D386131A70AC00DFD9F6 /* NSDictionary+QueryString.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E39D384131A70AB00DFD9F6 /* NSDictionary+QueryString.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E39D387131A70AC00DFD9F6 /* NSDictionary+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E39D385131A70AC00DFD9F6 /* NSDictionary+QueryString.m */; };
+		3E617F58136DDB8400CC2260 /* Group.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E617F57136DDB8400CC2260 /* Group.h */; };
+		3E6F84B5132F9F0600763506 /* MoltenCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23DC51316D8C400E49338 /* MoltenCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E6F84B7132F9F2400763506 /* NSString+QueryString.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E39D37F131A6FC100DFD9F6 /* NSString+QueryString.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E6F84B8132F9F2400763506 /* NSDictionary+QueryString.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E39D384131A70AB00DFD9F6 /* NSDictionary+QueryString.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E6F84B9132F9F2400763506 /* NSString+CapitalFirstLetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8961451320567D0090D0D1 /* NSString+CapitalFirstLetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E6F84BA132F9F2400763506 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2E6E45132947CB00AF1264 /* NSString+MD5.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E6F84BB132F9F2400763506 /* NSData+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2E6E491329490E00AF1264 /* NSData+MD5.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E6F84BC132F9F2400763506 /* MVSJSONDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23DC91316E21D00E49338 /* MVSJSONDataModel.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E6F84BD132F9F2400763506 /* MVSSlowKeyDictionaryProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23DD21316E41000E49338 /* MVSSlowKeyDictionaryProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E6F84BE132F9F2400763506 /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2E918B131FDB8E00C9806B /* JSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E6F84BF132F9F2400763506 /* CryptographicLolcatAccumulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E2561F21320737C00EEC04D /* CryptographicLolcatAccumulator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E6F84C0132F9F2400763506 /* MVSWebserviceBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23DB31316CDB600E49338 /* MVSWebserviceBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E6F84C1132F9F2400763506 /* MVSRestWebserviceBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23DB71316CF6200E49338 /* MVSRestWebserviceBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E6F84C2132F9F2400763506 /* MVSRPCServiceBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23E091316FEA300E49338 /* MVSRPCServiceBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E6F84C3132F9F2400763506 /* MVSJSONRPCServiceBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23E0D1316FFFC00E49338 /* MVSJSONRPCServiceBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E6F84C4132F9F2400763506 /* MVSWebserviceOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E28B0BF131813D400EBB4F7 /* MVSWebserviceOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E6F84C5132F9F2400763506 /* MVSQueryString.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23DBB1316D19C00E49338 /* MVSQueryString.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E701B961344ABA40077B4E3 /* MVSJSONRPCRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E701B941344ABA40077B4E3 /* MVSJSONRPCRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E701B971344ABA40077B4E3 /* MVSJSONRPCRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E701B941344ABA40077B4E3 /* MVSJSONRPCRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E701B981344ABA40077B4E3 /* MVSJSONRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E701B951344ABA40077B4E3 /* MVSJSONRPCRequest.m */; };
+		3E701B991344ABA40077B4E3 /* MVSJSONRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E701B951344ABA40077B4E3 /* MVSJSONRPCRequest.m */; };
+		3E701B9C1344B4570077B4E3 /* MVSJSONRPCResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E701B9A1344B4570077B4E3 /* MVSJSONRPCResponse.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E701B9D1344B4570077B4E3 /* MVSJSONRPCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E701B9B1344B4570077B4E3 /* MVSJSONRPCResponse.m */; };
+		3E701BA01344B5630077B4E3 /* MVSJSONRPCError.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E701B9E1344B5630077B4E3 /* MVSJSONRPCError.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E701BA11344B5630077B4E3 /* MVSJSONRPCError.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E701B9F1344B5630077B4E3 /* MVSJSONRPCError.m */; };
+		3E701BA21344B6EC0077B4E3 /* MVSJSONRPCResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E701B9B1344B4570077B4E3 /* MVSJSONRPCResponse.m */; };
+		3E701BA31344B6EC0077B4E3 /* MVSJSONRPCError.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E701B9F1344B5630077B4E3 /* MVSJSONRPCError.m */; };
+		3E701BA41344B6FD0077B4E3 /* MVSJSONRPCResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E701B9A1344B4570077B4E3 /* MVSJSONRPCResponse.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E701BA51344B6FD0077B4E3 /* MVSJSONRPCError.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E701B9E1344B5630077B4E3 /* MVSJSONRPCError.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E795EA813782A84002DD763 /* MVSJSONRPCServerBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E278D031367329D00C88B29 /* MVSJSONRPCServerBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E795EA913782A84002DD763 /* MVSServerSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E329FCE136854A6000D2D74 /* MVSServerSocket.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E795EAA13782A84002DD763 /* MVSHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E329FDF1368923B000D2D74 /* MVSHTTPServer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E795EAB13782A84002DD763 /* MVSHTTPResponseHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E329FE31368A2BA000D2D74 /* MVSHTTPResponseHandler.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E795EAC13782A84002DD763 /* MVSHTTPResponseHandlerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E329FE71368ADE8000D2D74 /* MVSHTTPResponseHandlerFactory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E795EAD13782A84002DD763 /* MVSHTTPResponseOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E157AF7136995DF0019F9B6 /* MVSHTTPResponseOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E795EB013782A8F002DD763 /* MVSSocketConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E329FD3136864B0000D2D74 /* MVSSocketConnection.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E795EB1137870E5002DD763 /* MVSServerSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E329FCF136854A6000D2D74 /* MVSServerSocket.m */; };
+		3E795EB2137870E5002DD763 /* MVSSocketConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E329FD4136864B0000D2D74 /* MVSSocketConnection.m */; };
+		3E795EB3137870E5002DD763 /* MVSHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E329FE01368923B000D2D74 /* MVSHTTPServer.m */; };
+		3E795EB4137870E5002DD763 /* MVSHTTPResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E329FE41368A2BB000D2D74 /* MVSHTTPResponseHandler.m */; };
+		3E795EB5137870E5002DD763 /* MVSHTTPRequstHandlerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E329FE81368ADE8000D2D74 /* MVSHTTPRequstHandlerFactory.m */; };
+		3E795EB6137870E5002DD763 /* MVSHTTPResponseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E157AF8136995DF0019F9B6 /* MVSHTTPResponseOperation.m */; };
+		3E8961471320567D0090D0D1 /* NSString+CapitalFirstLetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8961451320567D0090D0D1 /* NSString+CapitalFirstLetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E8961481320567D0090D0D1 /* NSString+CapitalFirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8961461320567D0090D0D1 /* NSString+CapitalFirstLetter.m */; };
+		3E8F6713139E9F7B00A0AC64 /* MVSSharedObjectCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8F6711139E9F7B00A0AC64 /* MVSSharedObjectCache.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E8F6714139E9F7B00A0AC64 /* MVSSharedObjectCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8F6711139E9F7B00A0AC64 /* MVSSharedObjectCache.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E8F6715139E9F7B00A0AC64 /* MVSSharedObjectCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F6712139E9F7B00A0AC64 /* MVSSharedObjectCache.m */; };
+		3E8F6716139E9F7B00A0AC64 /* MVSSharedObjectCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F6712139E9F7B00A0AC64 /* MVSSharedObjectCache.m */; };
+		3E927716138A9EEE008C481D /* NSString+HMAC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E927714138A9EEE008C481D /* NSString+HMAC.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E927717138A9EEE008C481D /* NSString+HMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E927715138A9EEE008C481D /* NSString+HMAC.m */; };
+		3E927719138AA527008C481D /* NSString+HMAC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E927714138A9EEE008C481D /* NSString+HMAC.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E92771C138AA55F008C481D /* NSData+HMAC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E92771A138AA55E008C481D /* NSData+HMAC.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E92771D138AA55F008C481D /* NSData+HMAC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E92771A138AA55E008C481D /* NSData+HMAC.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E92771E138AA55F008C481D /* NSData+HMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E92771B138AA55E008C481D /* NSData+HMAC.m */; };
+		3E92771F138AA55F008C481D /* NSData+HMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E92771B138AA55E008C481D /* NSData+HMAC.m */; };
+		3E927728138AAE1F008C481D /* MVSSignedJSONRPCRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E927726138AAE1F008C481D /* MVSSignedJSONRPCRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E927729138AAE1F008C481D /* MVSSignedJSONRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E927727138AAE1F008C481D /* MVSSignedJSONRPCRequest.m */; };
+		3E92772B138ABFCC008C481D /* MVSSignedJSONRPCRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E927726138AAE1F008C481D /* MVSSignedJSONRPCRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E92772C138ABFD0008C481D /* MVSSignedJSONRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E927727138AAE1F008C481D /* MVSSignedJSONRPCRequest.m */; };
+		3E92772D138ABFDF008C481D /* NSString+HMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E927715138A9EEE008C481D /* NSString+HMAC.m */; };
+		3E927E4A133007630013AD0E /* TestJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E66A912131FCF7B004B07E8 /* TestJSONDataModel.m */; };
+		3E927E4B133007630013AD0E /* TestXMLDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E19F79B132008CB00BFCB79 /* TestXMLDataModel.m */; };
+		3E927E4C133007630013AD0E /* TestXMLTreeDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E89613D132044830090D0D1 /* TestXMLTreeDataModel.m */; };
+		3E927E4D133007630013AD0E /* TestXMLSubDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E896142132045120090D0D1 /* TestXMLSubDataModel.m */; };
+		3E93FE851342168A00E9E3A1 /* MVSSharedDataCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E93FE831342168A00E9E3A1 /* MVSSharedDataCache.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E93FE861342168A00E9E3A1 /* MVSSharedDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E93FE841342168A00E9E3A1 /* MVSSharedDataCache.m */; };
+		3E93FE891342190900E9E3A1 /* MVSDataCacheItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E93FE871342190900E9E3A1 /* MVSDataCacheItem.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E93FE8A1342190900E9E3A1 /* MVSDataCacheItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E93FE881342190900E9E3A1 /* MVSDataCacheItem.m */; };
+		3E93FE8B13421D2300E9E3A1 /* MVSSharedDataCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E93FE831342168A00E9E3A1 /* MVSSharedDataCache.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E93FE8C13421D3F00E9E3A1 /* MVSSharedDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E93FE841342168A00E9E3A1 /* MVSSharedDataCache.m */; };
+		3E93FE8D13421D4300E9E3A1 /* MVSDataCacheItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E93FE881342190900E9E3A1 /* MVSDataCacheItem.m */; };
+		3EA23D841316CCDB00E49338 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA23D831316CCDB00E49338 /* Cocoa.framework */; };
+		3EA23D8E1316CCDB00E49338 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EA23D8C1316CCDB00E49338 /* InfoPlist.strings */; };
+		3EA23D961316CCDB00E49338 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA23D831316CCDB00E49338 /* Cocoa.framework */; };
+		3EA23D991316CCDB00E49338 /* MoltenCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA23D801316CCDB00E49338 /* MoltenCore.framework */; };
+		3EA23D9F1316CCDB00E49338 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EA23D9D1316CCDB00E49338 /* InfoPlist.strings */; };
+		3EA23DA21316CCDB00E49338 /* MoltenCoreTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 3EA23DA11316CCDB00E49338 /* MoltenCoreTests.h */; };
+		3EA23DA41316CCDB00E49338 /* MoltenCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23DA31316CCDB00E49338 /* MoltenCoreTests.m */; };
+		3EA23DB51316CDB600E49338 /* MVSWebserviceBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23DB31316CDB600E49338 /* MVSWebserviceBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3EA23DB61316CDB600E49338 /* MVSWebserviceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23DB41316CDB600E49338 /* MVSWebserviceBase.m */; };
+		3EA23DB91316CF6200E49338 /* MVSRestWebserviceBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23DB71316CF6200E49338 /* MVSRestWebserviceBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3EA23DBA1316CF6200E49338 /* MVSRestWebserviceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23DB81316CF6200E49338 /* MVSRestWebserviceBase.m */; };
+		3EA23DBD1316D19C00E49338 /* MVSQueryString.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23DBB1316D19C00E49338 /* MVSQueryString.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3EA23DBE1316D19C00E49338 /* MVSQueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23DBC1316D19C00E49338 /* MVSQueryString.m */; };
+		3EA23DC61316D8C400E49338 /* MoltenCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23DC51316D8C400E49338 /* MoltenCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA23DCB1316E21D00E49338 /* MVSJSONDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23DC91316E21D00E49338 /* MVSJSONDataModel.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3EA23DCC1316E21D00E49338 /* MVSJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23DCA1316E21D00E49338 /* MVSJSONDataModel.m */; };
+		3EA23DD41316E41000E49338 /* MVSSlowKeyDictionaryProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23DD21316E41000E49338 /* MVSSlowKeyDictionaryProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3EA23DD51316E41000E49338 /* MVSSlowKeyDictionaryProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23DD31316E41000E49338 /* MVSSlowKeyDictionaryProxy.m */; };
+		3EA23DD81316E59B00E49338 /* MVSXMLDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23DD61316E59A00E49338 /* MVSXMLDataModel.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3EA23DD91316E59B00E49338 /* MVSXMLDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23DD71316E59B00E49338 /* MVSXMLDataModel.m */; };
+		3EA23E061316FE0400E49338 /* MVSXMLRPCServiceBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23E041316FE0400E49338 /* MVSXMLRPCServiceBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3EA23E071316FE0400E49338 /* MVSXMLRPCServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23E051316FE0400E49338 /* MVSXMLRPCServiceBase.m */; };
+		3EA23E0B1316FEA600E49338 /* MVSRPCServiceBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23E091316FEA300E49338 /* MVSRPCServiceBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3EA23E0C1316FEA600E49338 /* MVSRPCServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23E0A1316FEA400E49338 /* MVSRPCServiceBase.m */; };
+		3EA23E0F1317000800E49338 /* MVSJSONRPCServiceBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA23E0D1316FFFC00E49338 /* MVSJSONRPCServiceBase.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3EA23E101317000800E49338 /* MVSJSONRPCServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23E0E1316FFFF00E49338 /* MVSJSONRPCServiceBase.m */; };
+		3EE8ADAE132F9E6D00FCF340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2E6E0A132937A500AF1264 /* Foundation.framework */; };
+		3EE8ADB6132F9EAC00FCF340 /* NSString+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E39D380131A6FC100DFD9F6 /* NSString+QueryString.m */; };
+		3EE8ADB7132F9EAC00FCF340 /* NSDictionary+QueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E39D385131A70AC00DFD9F6 /* NSDictionary+QueryString.m */; };
+		3EE8ADB8132F9EAC00FCF340 /* NSString+CapitalFirstLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8961461320567D0090D0D1 /* NSString+CapitalFirstLetter.m */; };
+		3EE8ADB9132F9EAC00FCF340 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2E6E46132947CB00AF1264 /* NSString+MD5.m */; };
+		3EE8ADBA132F9EAC00FCF340 /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2E6E4A1329490E00AF1264 /* NSData+MD5.m */; };
+		3EE8ADBB132F9EAC00FCF340 /* MVSJSONDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23DCA1316E21D00E49338 /* MVSJSONDataModel.m */; };
+		3EE8ADBC132F9EAC00FCF340 /* MVSSlowKeyDictionaryProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23DD31316E41000E49338 /* MVSSlowKeyDictionaryProxy.m */; };
+		3EE8ADBD132F9EAC00FCF340 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2E918C131FDB8E00C9806B /* JSONKit.m */; };
+		3EE8ADBE132F9EAC00FCF340 /* CryptographicLolcatAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2561F31320737C00EEC04D /* CryptographicLolcatAccumulator.m */; };
+		3EE8ADBF132F9EAC00FCF340 /* MVSWebserviceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23DB41316CDB600E49338 /* MVSWebserviceBase.m */; };
+		3EE8ADC0132F9EAC00FCF340 /* MVSRestWebserviceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23DB81316CF6200E49338 /* MVSRestWebserviceBase.m */; };
+		3EE8ADC1132F9EAC00FCF340 /* MVSRPCServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23E0A1316FEA400E49338 /* MVSRPCServiceBase.m */; };
+		3EE8ADC2132F9EAC00FCF340 /* MVSJSONRPCServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23E0E1316FFFF00E49338 /* MVSJSONRPCServiceBase.m */; };
+		3EE8ADC3132F9EAC00FCF340 /* MVSWebserviceOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E28B0C0131813D500EBB4F7 /* MVSWebserviceOperation.m */; };
+		3EE8ADC4132F9EAC00FCF340 /* MVSQueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA23DBC1316D19C00E49338 /* MVSQueryString.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EA23D971316CCDB00E49338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EA23D761316CCDB00E49338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EA23D7F1316CCDB00E49338;
+			remoteInfo = MoltenCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E0DC3C513B0F1E50010651B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Resources";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E1443251399050A008C27A5 /* MVSUUID.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MVSUUID.c; sourceTree = "<group>"; };
+		3E1443261399050A008C27A5 /* MVSUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSUUID.h; sourceTree = "<group>"; };
+		3E157AF7136995DF0019F9B6 /* MVSHTTPResponseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSHTTPResponseOperation.h; sourceTree = "<group>"; };
+		3E157AF8136995DF0019F9B6 /* MVSHTTPResponseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSHTTPResponseOperation.m; sourceTree = "<group>"; };
+		3E19F79A132008CA00BFCB79 /* TestXMLDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestXMLDataModel.h; sourceTree = "<group>"; };
+		3E19F79B132008CB00BFCB79 /* TestXMLDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestXMLDataModel.m; sourceTree = "<group>"; };
+		3E2561F21320737C00EEC04D /* CryptographicLolcatAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptographicLolcatAccumulator.h; sourceTree = "<group>"; };
+		3E2561F31320737C00EEC04D /* CryptographicLolcatAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptographicLolcatAccumulator.m; sourceTree = "<group>"; };
+		3E278D031367329D00C88B29 /* MVSJSONRPCServerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSJSONRPCServerBase.h; sourceTree = "<group>"; };
+		3E278D041367329D00C88B29 /* MVSJSONRPCServerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSJSONRPCServerBase.m; sourceTree = "<group>"; };
+		3E28B0BF131813D400EBB4F7 /* MVSWebserviceOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSWebserviceOperation.h; sourceTree = "<group>"; };
+		3E28B0C0131813D500EBB4F7 /* MVSWebserviceOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSWebserviceOperation.m; sourceTree = "<group>"; };
+		3E2926E8138695C70019893C /* NSObject+PerformInBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformInBackground.h"; sourceTree = "<group>"; };
+		3E2926E9138695C70019893C /* NSObject+PerformInBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PerformInBackground.m"; sourceTree = "<group>"; };
+		3E2E6E0A132937A500AF1264 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E2E6E45132947CB00AF1264 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		3E2E6E46132947CB00AF1264 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		3E2E6E491329490E00AF1264 /* NSData+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5.h"; sourceTree = "<group>"; };
+		3E2E6E4A1329490E00AF1264 /* NSData+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5.m"; sourceTree = "<group>"; };
+		3E2E918B131FDB8E00C9806B /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		3E2E918C131FDB8E00C9806B /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		3E329FCE136854A6000D2D74 /* MVSServerSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSServerSocket.h; sourceTree = "<group>"; };
+		3E329FCF136854A6000D2D74 /* MVSServerSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSServerSocket.m; sourceTree = "<group>"; };
+		3E329FD3136864B0000D2D74 /* MVSSocketConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSSocketConnection.h; sourceTree = "<group>"; };
+		3E329FD4136864B0000D2D74 /* MVSSocketConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSSocketConnection.m; sourceTree = "<group>"; };
+		3E329FDF1368923B000D2D74 /* MVSHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSHTTPServer.h; sourceTree = "<group>"; };
+		3E329FE01368923B000D2D74 /* MVSHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSHTTPServer.m; sourceTree = "<group>"; };
+		3E329FE31368A2BA000D2D74 /* MVSHTTPResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSHTTPResponseHandler.h; sourceTree = "<group>"; };
+		3E329FE41368A2BB000D2D74 /* MVSHTTPResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSHTTPResponseHandler.m; sourceTree = "<group>"; };
+		3E329FE71368ADE8000D2D74 /* MVSHTTPResponseHandlerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSHTTPResponseHandlerFactory.h; sourceTree = "<group>"; };
+		3E329FE81368ADE8000D2D74 /* MVSHTTPRequstHandlerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSHTTPRequstHandlerFactory.m; sourceTree = "<group>"; };
+		3E36AD2F136C2CFB00692579 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		3E36AD32136C32CB00692579 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		3E36AD34136C36B000692579 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		3E36AD36136C3B5700692579 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		3E39D37F131A6FC100DFD9F6 /* NSString+QueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QueryString.h"; sourceTree = "<group>"; };
+		3E39D380131A6FC100DFD9F6 /* NSString+QueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QueryString.m"; sourceTree = "<group>"; };
+		3E39D384131A70AB00DFD9F6 /* NSDictionary+QueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QueryString.h"; sourceTree = "<group>"; };
+		3E39D385131A70AC00DFD9F6 /* NSDictionary+QueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QueryString.m"; sourceTree = "<group>"; };
+		3E617F57136DDB8400CC2260 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		3E66A911131FCF7B004B07E8 /* TestJSONDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestJSONDataModel.h; sourceTree = "<group>"; };
+		3E66A912131FCF7B004B07E8 /* TestJSONDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestJSONDataModel.m; sourceTree = "<group>"; };
+		3E701B941344ABA40077B4E3 /* MVSJSONRPCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSJSONRPCRequest.h; sourceTree = "<group>"; };
+		3E701B951344ABA40077B4E3 /* MVSJSONRPCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSJSONRPCRequest.m; sourceTree = "<group>"; };
+		3E701B9A1344B4570077B4E3 /* MVSJSONRPCResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSJSONRPCResponse.h; sourceTree = "<group>"; };
+		3E701B9B1344B4570077B4E3 /* MVSJSONRPCResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSJSONRPCResponse.m; sourceTree = "<group>"; };
+		3E701B9E1344B5630077B4E3 /* MVSJSONRPCError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSJSONRPCError.h; sourceTree = "<group>"; };
+		3E701B9F1344B5630077B4E3 /* MVSJSONRPCError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSJSONRPCError.m; sourceTree = "<group>"; };
+		3E89613C132044830090D0D1 /* TestXMLTreeDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestXMLTreeDataModel.h; sourceTree = "<group>"; };
+		3E89613D132044830090D0D1 /* TestXMLTreeDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestXMLTreeDataModel.m; sourceTree = "<group>"; };
+		3E896141132045120090D0D1 /* TestXMLSubDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestXMLSubDataModel.h; sourceTree = "<group>"; };
+		3E896142132045120090D0D1 /* TestXMLSubDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestXMLSubDataModel.m; sourceTree = "<group>"; };
+		3E8961451320567D0090D0D1 /* NSString+CapitalFirstLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CapitalFirstLetter.h"; sourceTree = "<group>"; };
+		3E8961461320567D0090D0D1 /* NSString+CapitalFirstLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CapitalFirstLetter.m"; sourceTree = "<group>"; };
+		3E8F6711139E9F7B00A0AC64 /* MVSSharedObjectCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSSharedObjectCache.h; sourceTree = "<group>"; };
+		3E8F6712139E9F7B00A0AC64 /* MVSSharedObjectCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSSharedObjectCache.m; sourceTree = "<group>"; };
+		3E927714138A9EEE008C481D /* NSString+HMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HMAC.h"; sourceTree = "<group>"; };
+		3E927715138A9EEE008C481D /* NSString+HMAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HMAC.m"; sourceTree = "<group>"; };
+		3E92771A138AA55E008C481D /* NSData+HMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+HMAC.h"; sourceTree = "<group>"; };
+		3E92771B138AA55E008C481D /* NSData+HMAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+HMAC.m"; sourceTree = "<group>"; };
+		3E927726138AAE1F008C481D /* MVSSignedJSONRPCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSSignedJSONRPCRequest.h; sourceTree = "<group>"; };
+		3E927727138AAE1F008C481D /* MVSSignedJSONRPCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSSignedJSONRPCRequest.m; sourceTree = "<group>"; };
+		3E93FE831342168A00E9E3A1 /* MVSSharedDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSSharedDataCache.h; sourceTree = "<group>"; };
+		3E93FE841342168A00E9E3A1 /* MVSSharedDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSSharedDataCache.m; sourceTree = "<group>"; };
+		3E93FE871342190900E9E3A1 /* MVSDataCacheItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSDataCacheItem.h; sourceTree = "<group>"; };
+		3E93FE881342190900E9E3A1 /* MVSDataCacheItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSDataCacheItem.m; sourceTree = "<group>"; };
+		3EA23D801316CCDB00E49338 /* MoltenCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoltenCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA23D831316CCDB00E49338 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3EA23D861316CCDB00E49338 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3EA23D871316CCDB00E49338 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3EA23D881316CCDB00E49338 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3EA23D8B1316CCDB00E49338 /* MoltenCore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoltenCore-Info.plist"; sourceTree = "<group>"; };
+		3EA23D8D1316CCDB00E49338 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3EA23D8F1316CCDB00E49338 /* MoltenCore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoltenCore-Prefix.pch"; sourceTree = "<group>"; };
+		3EA23D951316CCDB00E49338 /* MoltenCoreTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoltenCoreTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA23D9C1316CCDB00E49338 /* MoltenCoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoltenCoreTests-Info.plist"; sourceTree = "<group>"; };
+		3EA23D9E1316CCDB00E49338 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3EA23DA01316CCDB00E49338 /* MoltenCoreTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoltenCoreTests-Prefix.pch"; sourceTree = "<group>"; };
+		3EA23DA11316CCDB00E49338 /* MoltenCoreTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoltenCoreTests.h; sourceTree = "<group>"; };
+		3EA23DA31316CCDB00E49338 /* MoltenCoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoltenCoreTests.m; sourceTree = "<group>"; };
+		3EA23DB31316CDB600E49338 /* MVSWebserviceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSWebserviceBase.h; sourceTree = "<group>"; };
+		3EA23DB41316CDB600E49338 /* MVSWebserviceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSWebserviceBase.m; sourceTree = "<group>"; };
+		3EA23DB71316CF6200E49338 /* MVSRestWebserviceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSRestWebserviceBase.h; sourceTree = "<group>"; };
+		3EA23DB81316CF6200E49338 /* MVSRestWebserviceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSRestWebserviceBase.m; sourceTree = "<group>"; };
+		3EA23DBB1316D19C00E49338 /* MVSQueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSQueryString.h; sourceTree = "<group>"; };
+		3EA23DBC1316D19C00E49338 /* MVSQueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSQueryString.m; sourceTree = "<group>"; };
+		3EA23DC51316D8C400E49338 /* MoltenCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoltenCore.h; sourceTree = "<group>"; };
+		3EA23DC91316E21D00E49338 /* MVSJSONDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSJSONDataModel.h; sourceTree = "<group>"; };
+		3EA23DCA1316E21D00E49338 /* MVSJSONDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSJSONDataModel.m; sourceTree = "<group>"; };
+		3EA23DD21316E41000E49338 /* MVSSlowKeyDictionaryProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSSlowKeyDictionaryProxy.h; sourceTree = "<group>"; };
+		3EA23DD31316E41000E49338 /* MVSSlowKeyDictionaryProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSSlowKeyDictionaryProxy.m; sourceTree = "<group>"; };
+		3EA23DD61316E59A00E49338 /* MVSXMLDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSXMLDataModel.h; sourceTree = "<group>"; };
+		3EA23DD71316E59B00E49338 /* MVSXMLDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSXMLDataModel.m; sourceTree = "<group>"; };
+		3EA23E041316FE0400E49338 /* MVSXMLRPCServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSXMLRPCServiceBase.h; sourceTree = "<group>"; };
+		3EA23E051316FE0400E49338 /* MVSXMLRPCServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSXMLRPCServiceBase.m; sourceTree = "<group>"; };
+		3EA23E091316FEA300E49338 /* MVSRPCServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSRPCServiceBase.h; sourceTree = "<group>"; };
+		3EA23E0A1316FEA400E49338 /* MVSRPCServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSRPCServiceBase.m; sourceTree = "<group>"; };
+		3EA23E0D1316FFFC00E49338 /* MVSJSONRPCServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVSJSONRPCServiceBase.h; sourceTree = "<group>"; };
+		3EA23E0E1316FFFF00E49338 /* MVSJSONRPCServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVSJSONRPCServiceBase.m; sourceTree = "<group>"; };
+		3EE8ADAD132F9E6D00FCF340 /* libMoltenCoreiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMoltenCoreiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE8ADB1132F9E6D00FCF340 /* iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EA23D7C1316CCDB00E49338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA23D841316CCDB00E49338 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA23D911316CCDB00E49338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA23D961316CCDB00E49338 /* Cocoa.framework in Frameworks */,
+				3EA23D991316CCDB00E49338 /* MoltenCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE8ADAA132F9E6D00FCF340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE8ADAE132F9E6D00FCF340 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E1443231399047E008C27A5 /* Cryptography */ = {
+			isa = PBXGroup;
+			children = (
+				3E1443261399050A008C27A5 /* MVSUUID.h */,
+				3E1443251399050A008C27A5 /* MVSUUID.c */,
+			);
+			path = Cryptography;
+			sourceTree = "<group>";
+		};
+		3E2561F01320736A00EEC04D /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				3E2561F21320737C00EEC04D /* CryptographicLolcatAccumulator.h */,
+				3E2561F31320737C00EEC04D /* CryptographicLolcatAccumulator.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		3E701B931344AB8D0077B4E3 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E701B941344ABA40077B4E3 /* MVSJSONRPCRequest.h */,
+				3E701B951344ABA40077B4E3 /* MVSJSONRPCRequest.m */,
+				3E701B9A1344B4570077B4E3 /* MVSJSONRPCResponse.h */,
+				3E701B9B1344B4570077B4E3 /* MVSJSONRPCResponse.m */,
+				3E701B9E1344B5630077B4E3 /* MVSJSONRPCError.h */,
+				3E701B9F1344B5630077B4E3 /* MVSJSONRPCError.m */,
+				3E36AD34136C36B000692579 /* Group.h */,
+				3E927726138AAE1F008C481D /* MVSSignedJSONRPCRequest.h */,
+				3E927727138AAE1F008C481D /* MVSSignedJSONRPCRequest.m */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		3E93FE811342166600E9E3A1 /* Caching */ = {
+			isa = PBXGroup;
+			children = (
+				3E93FE831342168A00E9E3A1 /* MVSSharedDataCache.h */,
+				3E93FE841342168A00E9E3A1 /* MVSSharedDataCache.m */,
+				3E93FE871342190900E9E3A1 /* MVSDataCacheItem.h */,
+				3E93FE881342190900E9E3A1 /* MVSDataCacheItem.m */,
+				3E36AD2F136C2CFB00692579 /* Group.h */,
+				3E8F6711139E9F7B00A0AC64 /* MVSSharedObjectCache.h */,
+				3E8F6712139E9F7B00A0AC64 /* MVSSharedObjectCache.m */,
+			);
+			path = Caching;
+			sourceTree = "<group>";
+		};
+		3EA23D741316CCDB00E49338 = {
+			isa = PBXGroup;
+			children = (
+				3EA23D891316CCDB00E49338 /* MoltenCore */,
+				3EA23D9A1316CCDB00E49338 /* MoltenCoreTests */,
+				3EE8ADAF132F9E6D00FCF340 /* iOS */,
+				3EA23D821316CCDB00E49338 /* Frameworks */,
+				3EA23D811316CCDB00E49338 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EA23D811316CCDB00E49338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EA23D801316CCDB00E49338 /* MoltenCore.framework */,
+				3EA23D951316CCDB00E49338 /* MoltenCoreTests.octest */,
+				3EE8ADAD132F9E6D00FCF340 /* libMoltenCoreiOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EA23D821316CCDB00E49338 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EA23D831316CCDB00E49338 /* Cocoa.framework */,
+				3E2E6E0A132937A500AF1264 /* Foundation.framework */,
+				3EA23D851316CCDB00E49338 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EA23D851316CCDB00E49338 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EA23D861316CCDB00E49338 /* AppKit.framework */,
+				3EA23D871316CCDB00E49338 /* CoreData.framework */,
+				3EA23D881316CCDB00E49338 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3EA23D891316CCDB00E49338 /* MoltenCore */ = {
+			isa = PBXGroup;
+			children = (
+				3EA23DAD1316CD4300E49338 /* Classes */,
+				3EA23D8A1316CCDB00E49338 /* Supporting Files */,
+			);
+			path = MoltenCore;
+			sourceTree = "<group>";
+		};
+		3EA23D8A1316CCDB00E49338 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EA23D8B1316CCDB00E49338 /* MoltenCore-Info.plist */,
+				3EA23D8C1316CCDB00E49338 /* InfoPlist.strings */,
+				3EA23D8F1316CCDB00E49338 /* MoltenCore-Prefix.pch */,
+				3EA23DC51316D8C400E49338 /* MoltenCore.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EA23D9A1316CCDB00E49338 /* MoltenCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EA23DA11316CCDB00E49338 /* MoltenCoreTests.h */,
+				3EA23DA31316CCDB00E49338 /* MoltenCoreTests.m */,
+				3EA23D9B1316CCDB00E49338 /* Supporting Files */,
+				3E66A911131FCF7B004B07E8 /* TestJSONDataModel.h */,
+				3E66A912131FCF7B004B07E8 /* TestJSONDataModel.m */,
+				3E19F79A132008CA00BFCB79 /* TestXMLDataModel.h */,
+				3E19F79B132008CB00BFCB79 /* TestXMLDataModel.m */,
+				3E89613C132044830090D0D1 /* TestXMLTreeDataModel.h */,
+				3E89613D132044830090D0D1 /* TestXMLTreeDataModel.m */,
+				3E896141132045120090D0D1 /* TestXMLSubDataModel.h */,
+				3E896142132045120090D0D1 /* TestXMLSubDataModel.m */,
+			);
+			path = MoltenCoreTests;
+			sourceTree = "<group>";
+		};
+		3EA23D9B1316CCDB00E49338 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EA23D9C1316CCDB00E49338 /* MoltenCoreTests-Info.plist */,
+				3EA23D9D1316CCDB00E49338 /* InfoPlist.strings */,
+				3EA23DA01316CCDB00E49338 /* MoltenCoreTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EA23DAD1316CD4300E49338 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3E93FE811342166600E9E3A1 /* Caching */,
+				3EA23DB11316CD8300E49338 /* Categories */,
+				3E1443231399047E008C27A5 /* Cryptography */,
+				3EA23DC81316E20400E49338 /* Data Modeling */,
+				3E701B931344AB8D0077B4E3 /* Data Models */,
+				3EA9A6DE1317E53C00F40CD3 /* JSON */,
+				3E2561F01320736A00EEC04D /* Misc */,
+				3EA23DB01316CD6800E49338 /* Networking */,
+				3EA23DB21316CD8400E49338 /* Protocols */,
+				3EA23DAF1316CD6100E49338 /* Utilities */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3EA23DAF1316CD6100E49338 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3EA23DBB1316D19C00E49338 /* MVSQueryString.h */,
+				3EA23DBC1316D19C00E49338 /* MVSQueryString.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3EA23DB01316CD6800E49338 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3EA23DB31316CDB600E49338 /* MVSWebserviceBase.h */,
+				3EA23DB41316CDB600E49338 /* MVSWebserviceBase.m */,
+				3EA23DB71316CF6200E49338 /* MVSRestWebserviceBase.h */,
+				3EA23DB81316CF6200E49338 /* MVSRestWebserviceBase.m */,
+				3EA23E091316FEA300E49338 /* MVSRPCServiceBase.h */,
+				3EA23E0A1316FEA400E49338 /* MVSRPCServiceBase.m */,
+				3EA23E041316FE0400E49338 /* MVSXMLRPCServiceBase.h */,
+				3EA23E051316FE0400E49338 /* MVSXMLRPCServiceBase.m */,
+				3EA23E0D1316FFFC00E49338 /* MVSJSONRPCServiceBase.h */,
+				3EA23E0E1316FFFF00E49338 /* MVSJSONRPCServiceBase.m */,
+				3E28B0BF131813D400EBB4F7 /* MVSWebserviceOperation.h */,
+				3E28B0C0131813D500EBB4F7 /* MVSWebserviceOperation.m */,
+				3E278D031367329D00C88B29 /* MVSJSONRPCServerBase.h */,
+				3E278D041367329D00C88B29 /* MVSJSONRPCServerBase.m */,
+				3E329FCE136854A6000D2D74 /* MVSServerSocket.h */,
+				3E329FCF136854A6000D2D74 /* MVSServerSocket.m */,
+				3E329FD3136864B0000D2D74 /* MVSSocketConnection.h */,
+				3E329FD4136864B0000D2D74 /* MVSSocketConnection.m */,
+				3E329FDF1368923B000D2D74 /* MVSHTTPServer.h */,
+				3E329FE01368923B000D2D74 /* MVSHTTPServer.m */,
+				3E329FE31368A2BA000D2D74 /* MVSHTTPResponseHandler.h */,
+				3E329FE41368A2BB000D2D74 /* MVSHTTPResponseHandler.m */,
+				3E329FE71368ADE8000D2D74 /* MVSHTTPResponseHandlerFactory.h */,
+				3E329FE81368ADE8000D2D74 /* MVSHTTPRequstHandlerFactory.m */,
+				3E157AF7136995DF0019F9B6 /* MVSHTTPResponseOperation.h */,
+				3E157AF8136995DF0019F9B6 /* MVSHTTPResponseOperation.m */,
+				3E36AD36136C3B5700692579 /* Group.h */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3EA23DB11316CD8300E49338 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3E39D37F131A6FC100DFD9F6 /* NSString+QueryString.h */,
+				3E39D380131A6FC100DFD9F6 /* NSString+QueryString.m */,
+				3E39D384131A70AB00DFD9F6 /* NSDictionary+QueryString.h */,
+				3E39D385131A70AC00DFD9F6 /* NSDictionary+QueryString.m */,
+				3E8961451320567D0090D0D1 /* NSString+CapitalFirstLetter.h */,
+				3E8961461320567D0090D0D1 /* NSString+CapitalFirstLetter.m */,
+				3E2E6E45132947CB00AF1264 /* NSString+MD5.h */,
+				3E2E6E46132947CB00AF1264 /* NSString+MD5.m */,
+				3E2E6E491329490E00AF1264 /* NSData+MD5.h */,
+				3E2E6E4A1329490E00AF1264 /* NSData+MD5.m */,
+				3E617F57136DDB8400CC2260 /* Group.h */,
+				3E2926E8138695C70019893C /* NSObject+PerformInBackground.h */,
+				3E2926E9138695C70019893C /* NSObject+PerformInBackground.m */,
+				3E927714138A9EEE008C481D /* NSString+HMAC.h */,
+				3E927715138A9EEE008C481D /* NSString+HMAC.m */,
+				3E92771A138AA55E008C481D /* NSData+HMAC.h */,
+				3E92771B138AA55E008C481D /* NSData+HMAC.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3EA23DB21316CD8400E49338 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3EA23DC81316E20400E49338 /* Data Modeling */ = {
+			isa = PBXGroup;
+			children = (
+				3EA23DC91316E21D00E49338 /* MVSJSONDataModel.h */,
+				3EA23DCA1316E21D00E49338 /* MVSJSONDataModel.m */,
+				3EA23DD61316E59A00E49338 /* MVSXMLDataModel.h */,
+				3EA23DD71316E59B00E49338 /* MVSXMLDataModel.m */,
+				3EA23DD21316E41000E49338 /* MVSSlowKeyDictionaryProxy.h */,
+				3EA23DD31316E41000E49338 /* MVSSlowKeyDictionaryProxy.m */,
+				3E36AD32136C32CB00692579 /* Group.h */,
+			);
+			path = "Data Modeling";
+			sourceTree = "<group>";
+		};
+		3EA9A6DE1317E53C00F40CD3 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				3E2E918B131FDB8E00C9806B /* JSONKit.h */,
+				3E2E918C131FDB8E00C9806B /* JSONKit.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		3EE8ADAF132F9E6D00FCF340 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3EE8ADB1132F9E6D00FCF340 /* iOS-Prefix.pch */,
+				3EE8ADB0132F9E6D00FCF340 /* Supporting Files */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		3EE8ADB0132F9E6D00FCF340 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3EA23D7D1316CCDB00E49338 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA23DC61316D8C400E49338 /* MoltenCore.h in Headers */,
+				3E2E918D131FDB8E00C9806B /* JSONKit.h in Headers */,
+				3EA23DB51316CDB600E49338 /* MVSWebserviceBase.h in Headers */,
+				3EA23DB91316CF6200E49338 /* MVSRestWebserviceBase.h in Headers */,
+				3EA23DCB1316E21D00E49338 /* MVSJSONDataModel.h in Headers */,
+				3EA23DD81316E59B00E49338 /* MVSXMLDataModel.h in Headers */,
+				3EA23E0B1316FEA600E49338 /* MVSRPCServiceBase.h in Headers */,
+				3EA23E0F1317000800E49338 /* MVSJSONRPCServiceBase.h in Headers */,
+				3EA23E061316FE0400E49338 /* MVSXMLRPCServiceBase.h in Headers */,
+				3EA23DBD1316D19C00E49338 /* MVSQueryString.h in Headers */,
+				3EA23DD41316E41000E49338 /* MVSSlowKeyDictionaryProxy.h in Headers */,
+				3E28B0C1131813D500EBB4F7 /* MVSWebserviceOperation.h in Headers */,
+				3E39D381131A6FC100DFD9F6 /* NSString+QueryString.h in Headers */,
+				3E2E6E47132947CB00AF1264 /* NSString+MD5.h in Headers */,
+				3E2E6E4B1329490E00AF1264 /* NSData+MD5.h in Headers */,
+				3E39D386131A70AC00DFD9F6 /* NSDictionary+QueryString.h in Headers */,
+				3E2561F41320737C00EEC04D /* CryptographicLolcatAccumulator.h in Headers */,
+				3E8961471320567D0090D0D1 /* NSString+CapitalFirstLetter.h in Headers */,
+				3E93FE851342168A00E9E3A1 /* MVSSharedDataCache.h in Headers */,
+				3E93FE891342190900E9E3A1 /* MVSDataCacheItem.h in Headers */,
+				3E701B961344ABA40077B4E3 /* MVSJSONRPCRequest.h in Headers */,
+				3E701B9C1344B4570077B4E3 /* MVSJSONRPCResponse.h in Headers */,
+				3E701BA01344B5630077B4E3 /* MVSJSONRPCError.h in Headers */,
+				3E329FD0136854A6000D2D74 /* MVSServerSocket.h in Headers */,
+				3E329FD5136864B0000D2D74 /* MVSSocketConnection.h in Headers */,
+				3E329FE11368923B000D2D74 /* MVSHTTPServer.h in Headers */,
+				3E329FE51368A2BC000D2D74 /* MVSHTTPResponseHandler.h in Headers */,
+				3E329FE91368ADE9000D2D74 /* MVSHTTPResponseHandlerFactory.h in Headers */,
+				3E157AF9136995DF0019F9B6 /* MVSHTTPResponseOperation.h in Headers */,
+				3E2926EA138695C70019893C /* NSObject+PerformInBackground.h in Headers */,
+				3E927716138A9EEE008C481D /* NSString+HMAC.h in Headers */,
+				3E92771C138AA55F008C481D /* NSData+HMAC.h in Headers */,
+				3E927728138AAE1F008C481D /* MVSSignedJSONRPCRequest.h in Headers */,
+				3E1443291399050A008C27A5 /* MVSUUID.h in Headers */,
+				3E8F6713139E9F7B00A0AC64 /* MVSSharedObjectCache.h in Headers */,
+				3E278D051367329D00C88B29 /* MVSJSONRPCServerBase.h in Headers */,
+				3E36AD30136C2CFB00692579 /* Group.h in Headers */,
+				3E36AD33136C32CB00692579 /* Group.h in Headers */,
+				3E36AD35136C36B000692579 /* Group.h in Headers */,
+				3E36AD37136C3B5700692579 /* Group.h in Headers */,
+				3E617F58136DDB8400CC2260 /* Group.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE8ADAB132F9E6D00FCF340 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E6F84B5132F9F0600763506 /* MoltenCore.h in Headers */,
+				3E6F84BE132F9F2400763506 /* JSONKit.h in Headers */,
+				3E6F84B7132F9F2400763506 /* NSString+QueryString.h in Headers */,
+				3E6F84B8132F9F2400763506 /* NSDictionary+QueryString.h in Headers */,
+				3E6F84B9132F9F2400763506 /* NSString+CapitalFirstLetter.h in Headers */,
+				3E6F84BA132F9F2400763506 /* NSString+MD5.h in Headers */,
+				3E6F84BB132F9F2400763506 /* NSData+MD5.h in Headers */,
+				3E6F84BC132F9F2400763506 /* MVSJSONDataModel.h in Headers */,
+				3E6F84BD132F9F2400763506 /* MVSSlowKeyDictionaryProxy.h in Headers */,
+				3E6F84BF132F9F2400763506 /* CryptographicLolcatAccumulator.h in Headers */,
+				3E6F84C0132F9F2400763506 /* MVSWebserviceBase.h in Headers */,
+				3E6F84C1132F9F2400763506 /* MVSRestWebserviceBase.h in Headers */,
+				3E6F84C2132F9F2400763506 /* MVSRPCServiceBase.h in Headers */,
+				3E6F84C3132F9F2400763506 /* MVSJSONRPCServiceBase.h in Headers */,
+				3E6F84C4132F9F2400763506 /* MVSWebserviceOperation.h in Headers */,
+				3E6F84C5132F9F2400763506 /* MVSQueryString.h in Headers */,
+				3E93FE8B13421D2300E9E3A1 /* MVSSharedDataCache.h in Headers */,
+				3E701B971344ABA40077B4E3 /* MVSJSONRPCRequest.h in Headers */,
+				3E701BA41344B6FD0077B4E3 /* MVSJSONRPCResponse.h in Headers */,
+				3E701BA51344B6FD0077B4E3 /* MVSJSONRPCError.h in Headers */,
+				3E795EA813782A84002DD763 /* MVSJSONRPCServerBase.h in Headers */,
+				3E795EA913782A84002DD763 /* MVSServerSocket.h in Headers */,
+				3E795EB013782A8F002DD763 /* MVSSocketConnection.h in Headers */,
+				3E795EAA13782A84002DD763 /* MVSHTTPServer.h in Headers */,
+				3E795EAB13782A84002DD763 /* MVSHTTPResponseHandler.h in Headers */,
+				3E795EAC13782A84002DD763 /* MVSHTTPResponseHandlerFactory.h in Headers */,
+				3E795EAD13782A84002DD763 /* MVSHTTPResponseOperation.h in Headers */,
+				3E2926ED138698C60019893C /* NSObject+PerformInBackground.h in Headers */,
+				3E927719138AA527008C481D /* NSString+HMAC.h in Headers */,
+				3E92771D138AA55F008C481D /* NSData+HMAC.h in Headers */,
+				3E92772B138ABFCC008C481D /* MVSSignedJSONRPCRequest.h in Headers */,
+				3E14432A1399050A008C27A5 /* MVSUUID.h in Headers */,
+				3E8F6714139E9F7B00A0AC64 /* MVSSharedObjectCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3EA23D7F1316CCDB00E49338 /* MoltenCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EA23DA71316CCDB00E49338 /* Build configuration list for PBXNativeTarget "MoltenCore" */;
+			buildPhases = (
+				3EA23D7B1316CCDB00E49338 /* Sources */,
+				3EA23D7C1316CCDB00E49338 /* Frameworks */,
+				3EA23D7D1316CCDB00E49338 /* Headers */,
+				3EA23D7E1316CCDB00E49338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoltenCore;
+			productName = MoltenCore;
+			productReference = 3EA23D801316CCDB00E49338 /* MoltenCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3EA23D941316CCDB00E49338 /* MoltenCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EA23DAA1316CCDB00E49338 /* Build configuration list for PBXNativeTarget "MoltenCoreTests" */;
+			buildPhases = (
+				3EA23D901316CCDB00E49338 /* Sources */,
+				3EA23D911316CCDB00E49338 /* Frameworks */,
+				3EA23D921316CCDB00E49338 /* Resources */,
+				3EA23D931316CCDB00E49338 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EA23D981316CCDB00E49338 /* PBXTargetDependency */,
+			);
+			name = MoltenCoreTests;
+			productName = MoltenCoreTests;
+			productReference = 3EA23D951316CCDB00E49338 /* MoltenCoreTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3EE8ADAC132F9E6D00FCF340 /* MoltenCoreiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE8ADB4132F9E6D00FCF340 /* Build configuration list for PBXNativeTarget "MoltenCoreiOS" */;
+			buildPhases = (
+				3EE8ADA9132F9E6D00FCF340 /* Sources */,
+				3EE8ADAA132F9E6D00FCF340 /* Frameworks */,
+				3EE8ADAB132F9E6D00FCF340 /* Headers */,
+				3E0DC3C513B0F1E50010651B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoltenCoreiOS;
+			productName = iOS;
+			productReference = 3EE8ADAD132F9E6D00FCF340 /* libMoltenCoreiOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EA23D761316CCDB00E49338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3EA23D791316CCDB00E49338 /* Build configuration list for PBXProject "MoltenCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3EA23D741316CCDB00E49338;
+			productRefGroup = 3EA23D811316CCDB00E49338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EA23D7F1316CCDB00E49338 /* MoltenCore */,
+				3EA23D941316CCDB00E49338 /* MoltenCoreTests */,
+				3EE8ADAC132F9E6D00FCF340 /* MoltenCoreiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EA23D7E1316CCDB00E49338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA23D8E1316CCDB00E49338 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA23D921316CCDB00E49338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA23D9F1316CCDB00E49338 /* InfoPlist.strings in Resources */,
+				3EA23DA21316CCDB00E49338 /* MoltenCoreTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EA23D931316CCDB00E49338 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EA23D7B1316CCDB00E49338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA23DB61316CDB600E49338 /* MVSWebserviceBase.m in Sources */,
+				3EA23DBA1316CF6200E49338 /* MVSRestWebserviceBase.m in Sources */,
+				3EA23DBE1316D19C00E49338 /* MVSQueryString.m in Sources */,
+				3EA23DCC1316E21D00E49338 /* MVSJSONDataModel.m in Sources */,
+				3EA23DD51316E41000E49338 /* MVSSlowKeyDictionaryProxy.m in Sources */,
+				3EA23DD91316E59B00E49338 /* MVSXMLDataModel.m in Sources */,
+				3EA23E071316FE0400E49338 /* MVSXMLRPCServiceBase.m in Sources */,
+				3EA23E0C1316FEA600E49338 /* MVSRPCServiceBase.m in Sources */,
+				3EA23E101317000800E49338 /* MVSJSONRPCServiceBase.m in Sources */,
+				3E28B0C2131813D500EBB4F7 /* MVSWebserviceOperation.m in Sources */,
+				3E39D382131A6FC100DFD9F6 /* NSString+QueryString.m in Sources */,
+				3E39D387131A70AC00DFD9F6 /* NSDictionary+QueryString.m in Sources */,
+				3E2E918E131FDB8E00C9806B /* JSONKit.m in Sources */,
+				3E8961481320567D0090D0D1 /* NSString+CapitalFirstLetter.m in Sources */,
+				3E2561F51320737C00EEC04D /* CryptographicLolcatAccumulator.m in Sources */,
+				3E2E6E48132947CB00AF1264 /* NSString+MD5.m in Sources */,
+				3E2E6E4C1329490E00AF1264 /* NSData+MD5.m in Sources */,
+				3E93FE861342168A00E9E3A1 /* MVSSharedDataCache.m in Sources */,
+				3E93FE8A1342190900E9E3A1 /* MVSDataCacheItem.m in Sources */,
+				3E701B981344ABA40077B4E3 /* MVSJSONRPCRequest.m in Sources */,
+				3E701B9D1344B4570077B4E3 /* MVSJSONRPCResponse.m in Sources */,
+				3E701BA11344B5630077B4E3 /* MVSJSONRPCError.m in Sources */,
+				3E278D061367329D00C88B29 /* MVSJSONRPCServerBase.m in Sources */,
+				3E329FD1136854A6000D2D74 /* MVSServerSocket.m in Sources */,
+				3E329FD6136864B0000D2D74 /* MVSSocketConnection.m in Sources */,
+				3E329FE21368923B000D2D74 /* MVSHTTPServer.m in Sources */,
+				3E329FE61368A2BC000D2D74 /* MVSHTTPResponseHandler.m in Sources */,
+				3E329FEA1368ADE9000D2D74 /* MVSHTTPRequstHandlerFactory.m in Sources */,
+				3E157AFA136995DF0019F9B6 /* MVSHTTPResponseOperation.m in Sources */,
+				3E2926EB138695C70019893C /* NSObject+PerformInBackground.m in Sources */,
+				3E927717138A9EEE008C481D /* NSString+HMAC.m in Sources */,
+				3E92771E138AA55F008C481D /* NSData+HMAC.m in Sources */,
+				3E927729138AAE1F008C481D /* MVSSignedJSONRPCRequest.m in Sources */,
+				3E1443271399050A008C27A5 /* MVSUUID.c in Sources */,
+				3E8F6715139E9F7B00A0AC64 /* MVSSharedObjectCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA23D901316CCDB00E49338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA23DA41316CCDB00E49338 /* MoltenCoreTests.m in Sources */,
+				3E927E4A133007630013AD0E /* TestJSONDataModel.m in Sources */,
+				3E927E4B133007630013AD0E /* TestXMLDataModel.m in Sources */,
+				3E927E4C133007630013AD0E /* TestXMLTreeDataModel.m in Sources */,
+				3E927E4D133007630013AD0E /* TestXMLSubDataModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE8ADA9132F9E6D00FCF340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE8ADB6132F9EAC00FCF340 /* NSString+QueryString.m in Sources */,
+				3EE8ADB7132F9EAC00FCF340 /* NSDictionary+QueryString.m in Sources */,
+				3EE8ADB8132F9EAC00FCF340 /* NSString+CapitalFirstLetter.m in Sources */,
+				3EE8ADB9132F9EAC00FCF340 /* NSString+MD5.m in Sources */,
+				3EE8ADBA132F9EAC00FCF340 /* NSData+MD5.m in Sources */,
+				3EE8ADBB132F9EAC00FCF340 /* MVSJSONDataModel.m in Sources */,
+				3EE8ADBC132F9EAC00FCF340 /* MVSSlowKeyDictionaryProxy.m in Sources */,
+				3EE8ADBD132F9EAC00FCF340 /* JSONKit.m in Sources */,
+				3EE8ADBE132F9EAC00FCF340 /* CryptographicLolcatAccumulator.m in Sources */,
+				3EE8ADBF132F9EAC00FCF340 /* MVSWebserviceBase.m in Sources */,
+				3EE8ADC0132F9EAC00FCF340 /* MVSRestWebserviceBase.m in Sources */,
+				3EE8ADC1132F9EAC00FCF340 /* MVSRPCServiceBase.m in Sources */,
+				3EE8ADC2132F9EAC00FCF340 /* MVSJSONRPCServiceBase.m in Sources */,
+				3EE8ADC3132F9EAC00FCF340 /* MVSWebserviceOperation.m in Sources */,
+				3EE8ADC4132F9EAC00FCF340 /* MVSQueryString.m in Sources */,
+				3E93FE8C13421D3F00E9E3A1 /* MVSSharedDataCache.m in Sources */,
+				3E93FE8D13421D4300E9E3A1 /* MVSDataCacheItem.m in Sources */,
+				3E701B991344ABA40077B4E3 /* MVSJSONRPCRequest.m in Sources */,
+				3E701BA21344B6EC0077B4E3 /* MVSJSONRPCResponse.m in Sources */,
+				3E701BA31344B6EC0077B4E3 /* MVSJSONRPCError.m in Sources */,
+				3E795EB1137870E5002DD763 /* MVSServerSocket.m in Sources */,
+				3E795EB2137870E5002DD763 /* MVSSocketConnection.m in Sources */,
+				3E795EB3137870E5002DD763 /* MVSHTTPServer.m in Sources */,
+				3E795EB4137870E5002DD763 /* MVSHTTPResponseHandler.m in Sources */,
+				3E795EB5137870E5002DD763 /* MVSHTTPRequstHandlerFactory.m in Sources */,
+				3E795EB6137870E5002DD763 /* MVSHTTPResponseOperation.m in Sources */,
+				3E2926EE138698D20019893C /* NSObject+PerformInBackground.m in Sources */,
+				3E92771F138AA55F008C481D /* NSData+HMAC.m in Sources */,
+				3E92772C138ABFD0008C481D /* MVSSignedJSONRPCRequest.m in Sources */,
+				3E92772D138ABFDF008C481D /* NSString+HMAC.m in Sources */,
+				3E1443281399050A008C27A5 /* MVSUUID.c in Sources */,
+				3E8F6716139E9F7B00A0AC64 /* MVSSharedObjectCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EA23D981316CCDB00E49338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EA23D7F1316CCDB00E49338 /* MoltenCore */;
+			targetProxy = 3EA23D971316CCDB00E49338 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EA23D8C1316CCDB00E49338 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EA23D8D1316CCDB00E49338 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3EA23D9D1316CCDB00E49338 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EA23D9E1316CCDB00E49338 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EA23DA51316CCDB00E49338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3EA23DA61316CCDB00E49338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3EA23DA81316CCDB00E49338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoltenCore/MoltenCore-Prefix.pch";
+				INFOPLIST_FILE = "MoltenCore/MoltenCore-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PLIST_FILE_OUTPUT_FORMAT = "same-as-input";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		3EA23DA91316CCDB00E49338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoltenCore/MoltenCore-Prefix.pch";
+				INFOPLIST_FILE = "MoltenCore/MoltenCore-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PLIST_FILE_OUTPUT_FORMAT = "same-as-input";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		3EA23DAB1316CCDB00E49338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoltenCoreTests/MoltenCoreTests-Prefix.pch";
+				INFOPLIST_FILE = "MoltenCoreTests/MoltenCoreTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3EA23DAC1316CCDB00E49338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoltenCoreTests/MoltenCoreTests-Prefix.pch";
+				INFOPLIST_FILE = "MoltenCoreTests/MoltenCoreTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		3EE8ADB2132F9E6D00FCF340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/iOS.dst;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "iOS/iOS-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "MoltenCore/MoltenCore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LD_DYLIB_INSTALL_NAME = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PLIST_FILE_OUTPUT_FORMAT = "same-as-input";
+				PRIVATE_HEADERS_FOLDER_PATH = MoltenCore;
+				PRODUCT_NAME = "lib$(TARGET_NAME).a";
+				PUBLIC_HEADERS_FOLDER_PATH = MoltenCore;
+				SDKROOT = iphoneos;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv6 armv7 i386";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Debug;
+		};
+		3EE8ADB3132F9E6D00FCF340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/iOS.dst;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = "";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "iOS/iOS-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "MoltenCore/MoltenCore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LD_DYLIB_INSTALL_NAME = "";
+				OTHER_LDFLAGS = "";
+				PLIST_FILE_OUTPUT_FORMAT = "same-as-input";
+				PRIVATE_HEADERS_FOLDER_PATH = MoltenCore;
+				PRODUCT_NAME = "lib$(TARGET_NAME).a";
+				PUBLIC_HEADERS_FOLDER_PATH = MoltenCore;
+				SDKROOT = iphoneos;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv6 armv7";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EA23D791316CCDB00E49338 /* Build configuration list for PBXProject "MoltenCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA23DA51316CCDB00E49338 /* Debug */,
+				3EA23DA61316CCDB00E49338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EA23DA71316CCDB00E49338 /* Build configuration list for PBXNativeTarget "MoltenCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA23DA81316CCDB00E49338 /* Debug */,
+				3EA23DA91316CCDB00E49338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EA23DAA1316CCDB00E49338 /* Build configuration list for PBXNativeTarget "MoltenCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA23DAB1316CCDB00E49338 /* Debug */,
+				3EA23DAC1316CCDB00E49338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EE8ADB4132F9E6D00FCF340 /* Build configuration list for PBXNativeTarget "MoltenCoreiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE8ADB2132F9E6D00FCF340 /* Debug */,
+				3EE8ADB3132F9E6D00FCF340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EA23D761316CCDB00E49338 /* Project object */;
+}
