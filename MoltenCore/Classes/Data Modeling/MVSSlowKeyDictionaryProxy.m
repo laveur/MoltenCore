@@ -34,7 +34,7 @@
 		
 		self->_setSelector = NSSelectorFromString(setSelectorString);
 		
-		NSString *removeSelectorString = [NSString stringWithFormat:@"removeObjectFrom%@ForKey:"];
+		NSString *removeSelectorString = [NSString stringWithFormat:@"removeObjectFrom%@ForKey:", [self->_key capitalizedString]];
 		
 		self->_removeSelector = NSSelectorFromString(removeSelectorString);
 	}
