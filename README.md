@@ -37,3 +37,7 @@ problem, and allows for rapid development and testing.
 * JSON parsing through JSONKit
 * In memory data caching
 * MD5 Hashing of Strings and Data
+* 
+
+###License
+BSD 3-Clause, seee LICENSE in the root of repository for more information.
